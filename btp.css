@@ -1,0 +1,237 @@
+/* CSS Document */
+body{
+	margin: 0;
+	}
+
+	@font-face {
+	font-family: "Medium";
+	src: url("font/CircularStd-Medium.ttf") format("truetype");
+	}
+
+	@font-face {
+	font-family: "Black";
+	src: url("font/CircularStd-Black.ttf") format("truetype");
+	}
+	
+
+
+/*HEADER*/
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #222222;
+	padding: 20px 0px;
+	width: 100%;
+}
+
+nav {
+	width: 65%;
+}
+
+.lienheader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.logoparede {
+	width: 10vw;
+	
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+	font-family: "Medium";
+	font-size: 20px;
+}
+
+a:hover {
+	color: #F19D33; 
+}
+
+/*SECTION PRINCIPALE ACCUEIL*/
+
+.pageaccueil {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
+	 background-image: url("images/fond-site2.jpeg");
+     background-size: cover;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.bienvenue {
+	height: 70vh;
+	display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+}
+
+.accroche {
+	justify-content: center;
+	font-family: "Black";
+	color: white;
+	font-size: 72px;
+	padding-left: 100px;
+}
+
+#accroche2 {
+	color: #F19D33;
+}
+
+/*SECTION PRINCIPALE PRESENTATION*/
+
+.pagepresentation {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
+	 background-image: url("images/image-presentation.jpg");
+     background-size: cover;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	height: 70vh;
+}
+
+.presentationpartie {
+	height: 50vh;
+	padding-left: 100px;
+}
+
+.presentationentreprise {
+	font-size: 55px;
+	font-family: "Black";
+	color: #F19D33;
+}
+
+#textedepresentation {
+	font-size: 25px;
+	font-family: "Black";
+	color: #222222;
+}
+
+/*SECTION PRINCIPALE REALISATION*/
+.pagerealisations {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
+	 background-color: #2F2F2F;
+     background-size: cover;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	height: 140vh;
+}
+
+.mosaique {
+	margin: 0px;
+}
+
+.photosrealisations {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.realisation1 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.realisation2 {
+	width: 300px;
+	margin: 0px 2px;
+}
+
+.realisation3 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.realisation4 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.photosrealisations2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.realisation5 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.realisation6 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.realisation7 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.realisation8 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.photosrealisations3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.realisation9 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.realisation10 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.realisation11 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+.realisation12 {
+	width: 300px;
+	height: 200px;
+	margin: 0px 2px;
+}
+
+/*FOOTER*/
+
+footer {
+	background-color: #222222;
+	padding: 20px 0px;
+}
+
+.lienfooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+}
